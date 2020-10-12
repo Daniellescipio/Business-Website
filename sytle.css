@@ -1,0 +1,128 @@
+body{
+    background-color: #001a66;
+}
+
+h1.home{
+    font-size: 100px;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    position: relative;
+    left: 30%;
+    right:30%;
+}
+
+.container{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 40%;
+    margin-top: 100px;
+
+}
+
+.containertwo{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 40%;
+}
+
+.containerthree{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 40%;
+}
+
+.flip-card{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+}
+
+.flip-card:hover{
+    transform: rotateY(180deg);
+}
+.flipfront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: lightgrey;
+    text-align: center;
+    border-radius: 50%;
+    font-family: 'Kaushan Script', cursive;
+    
+}
+
+.flipback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: black;
+    transform: rotateY(180deg);
+    text-align: center;
+    border-radius: 20%;
+    background-image: url("images/cartomancy2.jpg");
+ 
+    
+}
+.flipbacktwo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: goldenrod;
+    transform: rotateY(180deg);
+    text-align: center;
+    border-radius: 20%;
+    background-image: url("images/1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}.flipbackthree{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color: white;
+    transform: rotateY(180deg);
+    text-align: center;
+    border-radius: 20%;
+    background-image: url("images/astrology2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+ul{
+    list-style: none;
+    position: absolute;
+    left:-15%;
+    font-family: Impact, Charcoal, sans-serif;
+}
+strong{
+    font-family: 'Kaushan Script', cursive;
+}
+
+.hook{
+    color:white;
+    position:relative;
+    left:35%;
+    top: -5%;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+}
+.line{
+    color:white;
+    position:absolute;
+    left: 15%;
+    top: 110%;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+}
